@@ -7,4 +7,4 @@ FROM scratch
 WORKDIR /opt/app
 COPY --from=build opt/app/docker-demo-2 ./
 EXPOSE 9000
-ENTRYPOINT ["./docker-demo-2"]
+ENTRYPOINT "./docker-demo-2"
